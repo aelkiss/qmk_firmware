@@ -13,7 +13,7 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         [_NUMPAD] = LAYOUT_numpad(KC_ESC,  KC_TAB,  KC_BSPC, KC_DEL,
-                                  TG(1),   KC_PSLS, KC_PAST, KC_PEQL,
+                                  KC_NLCK,   KC_PSLS, KC_PAST, KC_PEQL,
                                   KC_P7,   KC_P8,   KC_P9,   KC_PMNS, 
                                   KC_P4,   KC_P5,   KC_P6,   KC_PPLS,
                                   KC_P1,   KC_P2,   KC_P3,   KC_NO,
@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         [_NAVPAD] = LAYOUT_numpad(KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
                                   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
                                   KC_HOME, KC_UP,   KC_PGUP, KC_TRNS,
-                                  KC_LEFT, KC_NO,   KC_RGHT, KC_TRNS,
+                                  KC_LEFT, KC_DOWN, KC_RGHT, KC_TRNS,
                                   KC_END,  KC_DOWN, KC_PGDN, KC_TRNS,
                                   KC_TRNS, KC_INS,  KC_DEL,  KC_SPC)
 
